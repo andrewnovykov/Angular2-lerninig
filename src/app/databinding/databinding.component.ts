@@ -19,4 +19,9 @@ export class DatabindingComponent implements OnInit {
   	return true;
   }
 
+  onCliked(value: string ) {
+  	alert(value);
+  }
+
+
 }

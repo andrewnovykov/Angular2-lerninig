@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-event-binding',
@@ -7,15 +7,14 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: []
 })
-export class EventBindingComponent implements OnInit {
+export class EventBindingComponent   {
+
+  @Output() cliked = new EventEmitter();
 
   onCliked(){
-    alert('It work');
+    this.cliked.emit('its works');
   }
 
-  constructor() { }
-
-  ngOnInit() {
-  }
+ 
 
 }
