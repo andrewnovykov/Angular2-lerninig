@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { RopertyBindingComponent } from './databinding/roperty-binding.component';
 import { EventBindingComponent } from './databinding/event-binding.component';
+import { TwoWayBindingComponent } from './databinding/two-way-binding.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { EventBindingComponent } from './databinding/event-binding.component';
     AppComponent,
     DatabindingComponent,
     RopertyBindingComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    TwoWayBindingComponent
     
   ],
   imports: [

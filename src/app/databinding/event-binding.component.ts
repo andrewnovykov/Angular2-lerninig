@@ -9,7 +9,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
 })
 export class EventBindingComponent   {
 
-  @Output() cliked = new EventEmitter();
+  @Output( ) cliked = new EventEmitter();
 
   onCliked(){
     this.cliked.emit('its works');
