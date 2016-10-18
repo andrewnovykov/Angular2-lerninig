@@ -5,12 +5,14 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { DatabindingComponent } from './databinding/databinding.component';
+import { RopertyBindingComponent } from './databinding/roperty-binding.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    DatabindingComponent
+    DatabindingComponent,
+    RopertyBindingComponent
     
   ],
   imports: [
